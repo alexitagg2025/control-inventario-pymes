@@ -20,6 +20,9 @@ $productos = $conn->query("SELECT * FROM productos");
 
 <h1>Gestión de Productos</h1>
 
+<a href="ventas.php">Ir a ventas</a>
+<br><br>
+
 <form action="guardar_producto.php" method="POST">
 
     <label>Nombre:</label><br>
